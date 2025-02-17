@@ -1,0 +1,10 @@
+{
+    "name": "simple-static-site",
+    "version": "1.0.0",
+    "description": "A simple static site",
+    "scripts": {
+      "start": "static"
+    },
+    "dependencies": {}
+  }
+  
