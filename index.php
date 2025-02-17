@@ -91,11 +91,7 @@
         <h1>Bacon Hub</h1>
         <h2>Best Roblox Script Hub</h2>
 
-        <div class="buttons">
-            <a href="dashboard.php?tab=purchase">Purchase</a>
-            <a href="features.php" target="_blank">Features</a>
-            <a href="http://baconhub.infinityfreeapp.com/Images/Bacon%20Hub%20V2%20UI%20Jans.png" target="_blank">UI Preview</a>
-        </div>
+
 
     </div>
 </body>
