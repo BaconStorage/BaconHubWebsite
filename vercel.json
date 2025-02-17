@@ -1,15 +1,21 @@
 {
   "version": 2,
+  "name": "simple-website",
   "builds": [
     {
-      "src": "api/check_whitelist.php",
-      "use": "@vercel-php"
-    }
+      "src": "api/index.html",
+      "use": "@vercel/static"
+    },
+
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/check_whitelist.php"
-    }
-  ]
+      "src": "api/check_whitelist.php",
+      "dest": "check_whitelist.php"
+    },
+
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
