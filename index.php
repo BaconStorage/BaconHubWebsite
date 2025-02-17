@@ -1,19 +1,6 @@
 <?php
 session_start();
 
-if (isset($_SESSION["user_id"])) {
-    require __DIR__ . "/database.php";
-
-    $user_id = $_SESSION["user_id"];
-    $query = "SELECT * FROM user WHERE id = <uuid>$user_id</uuid>";
-    
-    try {
-        $result = $client->query($query);
-        $user = $result[0]; // Assuming the result is an array of users
-    } catch (Exception $e) {
-        echo "Error: " . $e->getMessage();
-    }
-}
 ?>
 
 <!DOCTYPE html>
@@ -100,10 +87,7 @@ if (isset($_SESSION["user_id"])) {
     </div>
 
     <div class="container">
-        <?php if (isset($user)): ?>
-        <?php else: ?>
-            <p><a href="login.php">Log in</a> or <a href="signup.html">sign up</a></p>
-        <?php endif; ?>
+
 
         <h1>Bacon Hub</h1>
         <h2>Best Roblox Script Hub</h2>
