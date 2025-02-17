@@ -1,13 +1,10 @@
-<?php
-session_start();
-
-echo "<!DOCTYPE html>
-<html lang='en'>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bacon Hub Home</title>
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/water.css@2/out/water.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <style>
         .navbar {
             overflow: hidden;
@@ -25,7 +22,7 @@ echo "<!DOCTYPE html>
 
         .navbar a:hover {
             background-color: #7289da;
-            color: white;
+            color: white; /* Changed to white */
         }
 
         h1, h2 {
@@ -73,21 +70,27 @@ echo "<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <div class='background-gif'></div>
+    <div class="background-gif"></div>
 
-    <div class='navbar'>
-        <a href='index.php'>Main</a>
-        <a href='dashboard.php'>Dashboard</a>
-        <a href='features.php'>Features</a>
-        <a href='Free Edition Features.php'>Free Features</a>
-        <a href='https://baconhub.gitbook.io/v2' target='_blank'>Docs</a>
-        <a href='discord.php' target='_blank'>Discord</a>
+    <div class="navbar">
+        <a href="index.php">Main</a>
+        <a href="dashboard.php">Dashboard</a>
+        <a href="https://baconhub.vercel.app/features.php">Features</a>
+        <a href="Free Edition Features.php">Free Features</a>
+        <a href="https://baconhub.gitbook.io/v2" target="_blank">Docs</a>
+        <a href="discord.php" target="_blank">Discord</a>
     </div>
 
-    <div class='container'>
+    <div class="container">
+        <p><a href="login.php">Log in</a> or <a href="signup.html">sign up</a></p>
         <h1>Bacon Hub</h1>
         <h2>Best Roblox Script Hub</h2>
+
+        <div class="buttons">
+            <a href="dashboard.php?tab=purchase">Purchase</a>
+            <a href="features.php" target="_blank">Features</a>
+            <a href="http://baconhub.infinityfreeapp.com/Images/Bacon%20Hub%20V2%20UI%20Jans.png" target="_blank">UI Preview</a>
+        </div>
     </div>
 </body>
-</html>";
-?>
+</html>
