@@ -1,20 +1,21 @@
 <?php
-
 session_start();
 
 if (isset($_SESSION["user_id"])) {
-    
-    $mysqli = require __DIR__ . "/database.php";
-    
-    $sql = "SELECT * FROM user
-            WHERE id = {$_SESSION["user_id"]}";
-            
-    $result = $mysqli->query($sql);
-    
-    $user = $result->fetch_assoc();
-}
+    require __DIR__ . "/database.php";
 
+    $user_id = $_SESSION["user_id"];
+    $query = "SELECT * FROM user WHERE id = <uuid>$user_id</uuid>";
+    
+    try {
+        $result = $client->query($query);
+        $user = $result[0]; // Assuming the result is an array of users
+    } catch (Exception $e) {
+        echo "Error: " . $e->getMessage();
+    }
+}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
