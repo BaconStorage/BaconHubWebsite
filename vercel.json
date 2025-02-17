@@ -5,15 +5,13 @@
     {
       "src": "api/index.html",
       "use": "@vercel/static"
-    },
-
+    }
   ],
   "routes": [
     {
       "src": "api/check_whitelist.php",
       "dest": "check_whitelist.php"
-    },
-
+    }
   ],
   "env": {
     "NODE_ENV": "production"
