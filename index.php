@@ -1,12 +1,13 @@
+<?php
+session_start();
 
-
-<!DOCTYPE html>
-<html lang="en">
+echo "<!DOCTYPE html>
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Bacon Hub Home</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/water.css@2/out/water.css'>
     <style>
         .navbar {
             overflow: hidden;
@@ -24,7 +25,7 @@
 
         .navbar a:hover {
             background-color: #7289da;
-            color: white; /* Changed to white */
+            color: white;
         }
 
         h1, h2 {
@@ -72,38 +73,21 @@
     </style>
 </head>
 <body>
-    <div class="background-gif"></div>
+    <div class='background-gif'></div>
 
-    <div class="navbar">
-        <a href="index.php">Main</a>
-        <a href="dashboard.php">Dashboard</a>
-        <a href="features.php">Features</a>
-        <a href="Free Edition Features.php">Free Features</a>
-        <a href="https://baconhub.gitbook.io/v2" target="_blank">Docs</a>
-        <a href="discord.php" target="_blank">Discord</a>
+    <div class='navbar'>
+        <a href='index.php'>Main</a>
+        <a href='dashboard.php'>Dashboard</a>
+        <a href='features.php'>Features</a>
+        <a href='Free Edition Features.php'>Free Features</a>
+        <a href='https://baconhub.gitbook.io/v2' target='_blank'>Docs</a>
+        <a href='discord.php' target='_blank'>Discord</a>
     </div>
 
-    <div class="container">
-
-
+    <div class='container'>
         <h1>Bacon Hub</h1>
         <h2>Best Roblox Script Hub</h2>
-
-
-
     </div>
 </body>
-</html>
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+</html>";
+?>
