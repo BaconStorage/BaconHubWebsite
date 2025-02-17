@@ -1,15 +1,16 @@
 {
   "version": 2,
+  "name": "simple-website",
   "builds": [
     {
-      "src": "index.php",
-      "use": "@vercel/node"
+      "src": "index.html",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.php"
+      "dest": "/index.html"
     }
   ]
 }
