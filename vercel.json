@@ -3,7 +3,7 @@
   "name": "simple-website",
   "builds": [
     {
-      "src": "index.php",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
