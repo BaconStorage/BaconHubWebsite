@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +29,7 @@
 
         .navbar a:hover {
             background-color: #7289da;
-            color: white; /* Changed to white */
+            color: white;
         }
 
         .big-space {
@@ -83,53 +82,6 @@
         <h1>Bacon Hub Features</h1>
 
         <div class="feature-box">
-            <h2 class="main-game">Universal Features</h2>
-            <h3>Visual Cheats</h3>
-            <ul>
-                <li>Esp Enabled</li>
-                <li>Esp Settings</li>
-                <li>Name Esp</li>
-                <li>Box Esp</li>
-                <li>Tracers</li>
-                <li>Team Color</li>
-                <li>Esp Color</li>
-            </ul>
-            <h3>Other</h3>
-            <ul>
-                <li>First Person</li>
-                <li>FOV</li>
-            </ul>
-            <h3>Aimbot</h3>
-            <ul>
-                <li>Aimbot Enabled</li>
-                <li>Aimbot Settings</li>
-                <li>Team Check</li>
-                <li>Show FOV</li>
-                <li>FOV Size</li>
-                <li>FOV Thickness</li>
-            </ul>
-        </div>
-        <div class="feature-box">
-            <h2 class="main-game"><a href="https://www.roblox.com/games/2753915549/Blox-Fruits" target="_blank">Blox Fruits Features</a></h2>
-            <h3>Auto Farm</h3>
-            <ul>
-                <li>Auto Farm Enabled</li>
-                <li>Auto Start Quest</li>
-            </ul>
-            <h3>Misc</h3>
-            <ul>
-                <li>Click TP</li>
-                <li>Click Destroy</li>
-                <li>Rejoin Server</li>
-                <li>Server Hop</li>
-                <li>Infinite Energy</li>
-            </ul>
-            <h3>Teleports</h3>
-            <ul>
-                <li>All Locations</li>
-            </ul>
-        </div>
-        <div class="feature-box">
             <h2 class="main-game"><a href="https://www.roblox.com/games/155615604/Prison-Life" target="_blank">Prison Life Features</a></h2>
             <h3>Combat Cheats</h3>
             <ul>
@@ -179,127 +131,6 @@
                 <li>All Locations</li>
             </ul>
         </div>
-
-        <div class="feature-box">
-    <h2 class="main-game"><a href="https://www.roblox.com/games/3956818381/Ninja-Legends" target="_blank">Ninja Legends Features</a></h2>
-    <h3>Auto Farm</h3>
-    <ul>
-        <li>Auto Swing</li>
-        <li>Auto Sell</li>
-        <li>Auto Collect Coins</li>
-        <li>Auto Collect Chi</li>
-    </ul>
-    <h3>Auto Buy</h3>
-    <ul>
-        <li>Auto Buy Swords</li>
-        <li>Auto Buy Belts</li>
-        <li>Auto Buy Skills</li>
-        <li>Auto Buy Shurikens</li>
-        <li>Auto Buy Rank</li>
-    </ul>
-    <h3>Character Cheats</h3>
-    <ul>
-        <li>WalkSpeed</li>
-        <li>JumpPower</li>
-        <li>Noclip</li>
-        <li>Infinite Jump</li>
-    </ul>
-    <h3>Pets</h3>
-    <ul>
-        <li>Auto Pet XP</li>
-        <li>Open Crystal</li>
-        <li>Auto Open Crystals</li>
-    </ul>
-    <h3>Misc</h3>
-    <ul>
-        <li>Click TP</li>
-        <li>Click Destroy</li>
-        <li>Unlock All Islands</li>
-        <li>Auto Unlock All Islands</li>
-    </ul>
-</div>
-
-
-        <div class="feature-box">
-            <h2 class="main-game"><a href="https://www.roblox.com/games/142823291/Murder-Mystery-2" target="_blank">Murder Mystery 2 Features</a></h2>
-            <h3>Combat Cheats</h3>
-            <ul>
-                <li>Kill All (Murderer)</li>
-                <li>Kill Murderer</li>
-            </ul>
-            <h3>Character Cheats</h3>
-            <ul>
-                <li>WalkSpeed</li>
-                <li>JumpPower</li>
-                <li>Noclip</li>
-                <li>Infinite Jump</li>
-            </ul>
-            <h3>Misc</h3>
-            <ul>
-                <li>Click TP</li>
-                <li>Click Destroy</li>
-                <li>Rejoin Server</li>
-                <li>Auto Pickup Gun</li>
-            </ul>
-            <h3>Teleports</h3>
-            <ul>
-                <li>All Locations</li>
-            </ul>
-        </div>
-
-        <div class="feature-box">
-            <h2 class="main-game"><a href="https://www.roblox.com/games/2788229376/UPD-Da-Hood" target="_blank">Da Hood Features</a></h2>
-            <h3>Character Cheats</h3>
-            <ul>
-                <li>Super Speed</li>
-                <li>Speed</li>
-                <li>JumpPower</li>
-                <li>Noclip</li>
-            </ul>
-            <h3>Misc</h3>
-            <ul>
-                <li>Click TP</li>
-                <li>Click Destroy</li>
-                <li>Rejoin Server</li>
-            </ul>
-            <h3>Teleports</h3>
-            <ul>
-                <li>All Locations</li>
-            </ul>
-        </div>
-
-        <div class="feature-box">
-            <h2 class="main-game"><a href="https://www.roblox.com/games/286090429/Arsenal" target="_blank">Arsenal Features</a></h2>
-            <h3>Combat Cheats</h3>
-            <ul>
-                <li>Infinite Ammo</li>
-                <li>Rapid Fire</li>
-                <li>No Recoil</li>
-            </ul>
-            <h3>Character Cheats</h3>
-            <ul>
-                <li>WalkSpeed</li>
-                <li>JumpHeight</li>
-                <li>Noclip</li>
-                <li>Infinite Jump</li>
-            </ul>
-        </div>
-
-
     </div>
 </body>
 </html>
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
