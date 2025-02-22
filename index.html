@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacon Hub Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #7289da;
+            color: white; /* Changed to white */
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: white;
+        }
+
+        .background-gif {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: url('https://media3.giphy.com/media/LVpt27iIw8EFO/200w.webp?cid=ecf05e47zbvkd6bh54gpl6inm94ka0t4aect24gwnkchnn94&ep=v1_gifs_search&rid=200w.webp&ct=g') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(5px);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #7289DA;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-gif"></div>
+
+    <div class="navbar">
+        <a href="index.php">Main</a>
+        <a href="dashboard.php">Dashboard</a>
+        <a href="features.php">Features</a>
+        <a href="Free Edition Features.php">Free Features</a>
+        <a href="https://baconhub.gitbook.io/v2" target="_blank">Docs</a>
+        <a href="discord.php" target="_blank">Discord</a>
+    </div>
+
+    <div class="container">
+        <?php if (isset($user)): ?>
+        <?php else: ?>
+            <p><a href="login.php">Log in</a> or <a href="signup.html">sign up</a></p>
+        <?php endif; ?>
+
+        <h1>Bacon Hub</h1>
+        <h2>Best Roblox Script Hub</h2>
+
+        <div class="buttons">
+            <a href="dashboard.php?tab=purchase">Purchase</a>
+            <a href="features.php" target="_blank">Features</a>
+            <a href="http://baconhub.infinityfreeapp.com/Images/Bacon%20Hub%20V2%20UI%20Jans.png" target="_blank">UI Preview</a>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
